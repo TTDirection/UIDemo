@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 1638
+  controlID: 106
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,7 +114,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 2 by 3
+  m_LastLoadedLayoutName: 
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 1543
+  controlID: 72
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -290,23 +290,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c290000
-    m_LastClickedID: 0
-    m_ExpandedIDs: d2aff0ffa8b4f0fff8b7f0ff9422f1fff828f1ffc431f1ff6653f1ff4c57f1ff9495f1ff6ca4f1ffdcb5f1ff1ebaf1ff94f5f1ff9af5f1ff06f8f1ff0cf8f1ffdefdf1ff60fff1ff6afff1ff4400f2ffc833f2ff9877f2ff8c7bf2ff2897f3ffc69cf3ff2c2df4ff8a3ff4ff1045f4fff01af6fff21af6fff61bf6fffa1bf6ff9e47f6ff884af6ff147dfaff1c16fcff2636fcff9aebfcffa0ebfcff4203fdfff251ffff000000007e5100008851000060580000d2580000dc5800001a5a0000845a0000ac5a0000b65a0000ea7b0000047c0000a27c0000b67c00006a990000b09900005e9a0000b09a0000ec9a0000109b0000e4c0000000c100002ac100005cc10000aec1000092c20000a8c2000056c700009cc7000020c80000c8d20000ced2000014d30000ced30000a8d40000b0d40000c0d40000cad40000d0d4000020d6000066d6000020d700001eda000026da000036da000040da000046da000074da00007cda000082da00009ada000028dc00002edc000074dc00002edd000008de000010de000020de00002ade000030de000066de000084de0000fcdf000042e00000cee00000f0e000000ae4000012e4000022e400002ce4000032e40000dae40000e0e40000e6e400002ce5000044e50000a8e50000bee50000e6e500003ee60000a8ec0000f6ec0000
+    m_SelectedIDs: d2320000
+    m_LastClickedID: 13010
+    m_ExpandedIDs: 08faffff9efbffff00000000fc3000002a310000303100004a3100007e310000963100000a3200008e320000ae320000c0320000e4320000f63200000c330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ChatText
+      m_OriginalName: ChatText
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13010
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 38290000
     m_LastClickedID: 10552
-    m_ExpandedIDs: 38290000d63a0000423b000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000004c2b0000562b0000dc2b0000542c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,21 +428,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000038290000ac3a0000d63a0000023b0000
+    m_ExpandedIDs: 000000004c2b0000562b0000dc2b0000542c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: UGUI_ChatDemo_Toggle
-      m_OriginalName: UGUI_ChatDemo_Toggle
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 39210
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -588,14 +588,14 @@ MonoBehaviour:
     height: 294
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 29222.58531720321
+  lastFramingTime: 1021.232411442893
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 325.66818, y: 314.83032, z: 2.1288884}
+    m_Target: {x: -2.8616066, y: 196.42455, z: -0.61305654}
     speed: 2
-    m_Value: {x: 325.66818, y: 314.83032, z: 2.1288884}
+    m_Value: {x: -2.8616066, y: 196.42455, z: -0.61305654}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -623,9 +623,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 412.8955
+    m_Target: 955.02515
     speed: 2
-    m_Value: 412.8955
+    m_Value: 955.02515
   m_Ortho:
     m_Target: 1
     speed: 2

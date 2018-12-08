@@ -9,6 +9,7 @@ public class ChatScript : MonoBehaviour {
     public Text chatText;
     public InputField chatInput;
     public RectTransform content;
+    public ScrollRect scrollrect;
     // Use this for initialization
     void Start () {
         sendMsgBtn.onClick.AddListener(OnSendMsgEvent);
@@ -29,5 +30,10 @@ public class ChatScript : MonoBehaviour {
         string sendMsg = "\n " + "<color=blue>" + GameMode.userName + "</color>:" + chatInput.text;
         chatText.text += sendMsg;
         chatInput.text = "";
+        //为了超出显示区域后，能在最下面显示出来
+        Canvas.ForceUpdateCanvases();
+        if(scrollrect)
+            scrollrect.verticalNormalizedPosition = 0;
+        Canvas.ForceUpdateCanvases();
     }
 }
