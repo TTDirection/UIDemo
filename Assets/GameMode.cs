@@ -3,6 +3,6 @@
 /// </summary>
 public class GameMode 
 {
-    public const string userName = "TaoTao";
+    public static string userName = "TaoTao";
     
 }

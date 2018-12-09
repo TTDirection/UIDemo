@@ -19,6 +19,8 @@ public class UIManager : MonoBehaviour {
     public GameObject privateChatGo;
     public GameObject copyGo;
 
+    public InputField userName;
+
     private GameObject messageBoxPanel;
     private List<GameObject> switchPanels=new List<GameObject>();
 
@@ -49,10 +51,18 @@ public class UIManager : MonoBehaviour {
             privateChat.onValueChanged.AddListener((bool value) => OnPrivateChatToggleEvent(value));
         if (copy)
             copy.onValueChanged.AddListener((bool value) => OnCopyToggleEvent(value));
+
+        if (userName)
+            userName.onEndEdit.AddListener((string name)=>OnUserNameChangeEvent(name));
     }
 
     void InitData()
     {
+        if(userName)
+        {
+            userName.text = GameMode.userName;
+            userName.textComponent.horizontalOverflow = HorizontalWrapMode.Wrap;
+        }
         messageBoxPanel = okBtn.transform.parent.gameObject;
         ShowMessageBoxState(false);
 
@@ -119,6 +129,12 @@ public class UIManager : MonoBehaviour {
         {
             ShowWho(copyGo, switchPanels);
         }
+    }
+
+    private void OnUserNameChangeEvent(string name)
+    {
+        Debug.Log("User name is changed,CurName = "+name);
+        GameMode.userName = name;
     }
     #endregion
 
